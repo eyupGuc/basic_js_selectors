@@ -49,3 +49,26 @@ console.log(input1.value);
 
 const h2 = document.querySelector(".item-list h3");
 h2.style.color = "blue";
+
+const lists = document.querySelectorAll("ol li");
+console.log(lists);
+lists.forEach((li) => console.log(li));
+
+///* Traversing
+
+const listT = document.querySelector(".list");
+const ol = listT.parentNode;
+console.log(ol);
+const ols =
+  document.querySelector(".list").parentElement.parentElement.parentElement;
+
+ols.style.border = "2px solid red";
+console.log(myList[0].innerText);
+const ankara = myList[0];
+
+const mySibling = ankara.nextElementSibling;
+console.log(mySibling);
+
+const adana = myList[2];
+const izmir = adana.previousElementSibling;
+console.log(izmir.innerText);
