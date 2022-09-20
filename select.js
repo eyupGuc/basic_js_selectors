@@ -81,3 +81,15 @@ const text = document.createTextNode("This is a new element");
 newP.appendChild(text);
 console.log(newP);
 h2.before(newP);
+
+const newLi = document.createElement("li");
+newLi.className = "list";
+console.log(newLi);
+const newCity = document.createTextNode("Gaziantep");
+newLi.appendChild(newCity);
+console.log(newLi);
+
+const istanbul = document.querySelector(".list");
+console.log(istanbul);
+
+h2.after(newLi);
