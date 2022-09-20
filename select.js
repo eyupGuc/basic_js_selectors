@@ -80,3 +80,4 @@ newP.setAttribute("class", "new-class");
 const text = document.createTextNode("This is a new element");
 newP.appendChild(text);
 console.log(newP);
+h2.before(newP);
