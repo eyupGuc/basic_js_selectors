@@ -34,3 +34,18 @@ console.log(myList[2].innerHTML);
 [...myList].forEach((e) => {
   e.style.background = "white";
 });
+
+const myLi = document.querySelector("li");
+console.log(myLi.innerText);
+
+const itemList = document.querySelector(".item-list");
+
+itemList.style.color = "green";
+
+const input1 = document.querySelector("#input");
+console.log(input1);
+input1.style.background = "yellow";
+console.log(input1.value);
+
+const h2 = document.querySelector(".item-list h3");
+h2.style.color = "blue";
