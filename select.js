@@ -72,3 +72,11 @@ console.log(mySibling);
 const adana = myList[2];
 const izmir = adana.previousElementSibling;
 console.log(izmir.innerText);
+
+//? yeni bir  element oluşturma
+const newP = document.createElement("p");
+newP.id = "par1";
+newP.setAttribute("class", "new-class");
+const text = document.createTextNode("This is a new element");
+newP.appendChild(text);
+console.log(newP);
